@@ -57,6 +57,8 @@ node app.js
 ```
 ### logs
 
+app.log and error.log is commited in repository as an example.
+
 ```sh
 cat app.log
 cat error.log
