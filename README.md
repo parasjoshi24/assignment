@@ -55,9 +55,10 @@ node app.js
 ```
 ### logs
 
+```sh
 cat app.log
 cat error.log
-
+```
 ### configure the Interval from command line
 
 INTERVAL=3000 node app.js
