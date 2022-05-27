@@ -1,2 +1,6 @@
 #ignore log files
 *.log
+*.json
+.node_modules/
+
+

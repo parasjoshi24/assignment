@@ -63,6 +63,8 @@ cat error.log
 ```
 ### configure the Interval from command line
 
+Interval is in Milliseconds .
+
 ```sh
 INTERVAL=3000 node app.js
 ```
