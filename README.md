@@ -1,4 +1,4 @@
-# assignment
+# Assignment
 Implement a program that monitors web sites and reports their availability. This tool is intended as a monitoring tool for web site administrators for detecting problems on their sites.
 
 ## Prepare the Installation
@@ -61,7 +61,9 @@ cat error.log
 ```
 ### configure the Interval from command line
 
+```sh
 INTERVAL=3000 node app.js
+```
 
 ## More Information
 
