@@ -1,0 +1,16 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "paras",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "jest": "^28.1.0"
+  }
+}
