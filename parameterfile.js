@@ -4,7 +4,11 @@ const  websitesdata= [
     content: "google"
   },
   {
-    name: "www.nixu1.com",
+    name: "www.f-secure.com/en",
+    content: "Switch to Nordic security"
+  },
+  {
+    name: "www.nixu123.com",
     content: "nixu"
   }
   ]

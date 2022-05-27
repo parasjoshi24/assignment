@@ -47,10 +47,12 @@ Deployment has the following prerequisites:
 
 ### prerequites
 
-install the node 
+* install the node
+* install the npm
 
 ### run the application
 ```sh
+npm install
 node app.js
 ```
 ### logs

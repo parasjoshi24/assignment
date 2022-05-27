@@ -10,7 +10,7 @@ if (interval) {
   console.log(`Your periodic interval is ${interval}`);
   monitoringtool(data); 
 } else {
-  console.log(`ERRORS.please check your interval.`);
+  console.error(`ERRORS.please check your interval.`);
   process.exit(1);
 }
 
@@ -51,7 +51,7 @@ for (const i in Object.values(data)){
         console.log(`Content requirements are not fulfilled for ${Object.values(data)[i].name}`);
       }
     }else{
-      console.log(`The web site is down or have errors due to other reasons`)
+      console.error(`The web site is down or have errors due to other reasons,Please check.`)
     }
     try {
       //write to log file
@@ -60,7 +60,7 @@ for (const i in Object.values(data)){
       console.error(err);
     }
   }).catch(error => {
-    console.log(`${Object.values(data)[i].name} Website not found. Please check the errors`)
+    console.error(`${Object.values(data)[i].name} Website not found. Please check the errors in error.log`)
     //write to error log file
     fs.writeFileSync('./error.log', `statusCode for ${Object.values(data)[i].name}| ${error} | ${Date().toString()} \n`, { flag: 'a+' });
  })
