@@ -52,6 +52,8 @@ Deployment has the following prerequisites:
 
 ### run the application
 ```sh
+git clone https://github.com/parasjoshi24/assignment.git
+cd assignment
 npm install
 node app.js
 ```
