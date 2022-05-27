@@ -43,6 +43,25 @@ Deployment has the following prerequisites:
       cat error.log
     ```
 
+## Without Docker installation
+
+### prerequites
+
+install the node 
+
+### run the application
+```sh
+node app.js
+```
+### logs
+
+cat app.log
+cat error.log
+
+### configure the Interval from command line
+
+INTERVAL=3000 node app.js
+
 ## More Information
 
 Please connect with me at https://www.linkedin.com/in/paras-joshi-00aa21179/
